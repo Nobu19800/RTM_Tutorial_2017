@@ -43,7 +43,7 @@ static const char* robotcontroller_spec[] =
 
     "conf.__type__.speed_x", "double",
     "conf.__type__.speed_r", "double",
-    "conf.__type__.stop_d", "double",
+    "conf.__type__.stop_d", "int",
 
     ""
   };

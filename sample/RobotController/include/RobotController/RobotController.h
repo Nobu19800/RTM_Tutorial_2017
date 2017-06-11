@@ -255,7 +255,7 @@ class RobotController
    * - Name: stop_d stop_d
    * - DefaultValue: 300
    */
-  double m_stop_d;
+  int m_stop_d;
 
   // </rtc-template>
 
