@@ -161,9 +161,10 @@ RTC::ReturnCode_t RobotController::onExecute(RTC::UniqueId ec_id)
 	{
 		//入力データ読み込み
 		m_inIn.read();
+		//この時点で入力データがm_inに格納される
 		for (int i = 0; i < m_in.data.length(); i++)
 		{
-			//入力データ格納
+			//入力データを別変数に格納
 			if (i < 4)
 			{
 				sensor_data[i] = m_in.data[i];
