@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rtc:RtcProfile rtc:version="0.2" rtc:id="RTC:AIST:Controller:RobotController:1.0.0" xmlns:rtcExt="http://www.openrtp.org/namespaces/rtc_ext" xmlns:rtcDoc="http://www.openrtp.org/namespaces/rtc_doc" xmlns:rtc="http://www.openrtp.org/namespaces/rtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <rtc:BasicInfo xsi:type="rtcExt:basic_info_ext" rtcExt:saveProject="RobotController" rtc:updateDate="2017-06-09T19:03:58.801+09:00" rtc:creationDate="2017-06-09T17:06:44+09:00" rtc:abstract="講習会用Raspberry Piマウス操作コンポーネント" rtc:version="1.0.0" rtc:vendor="AIST" rtc:maxInstances="1" rtc:executionType="PeriodicExecutionContext" rtc:executionRate="1000.0" rtc:description="Robot Controller Component" rtc:category="Controller" rtc:componentKind="DataFlowComponent" rtc:activityType="PERIODIC" rtc:componentType="STATIC" rtc:name="RobotController">
+    <rtc:BasicInfo xsi:type="rtcExt:basic_info_ext" rtcExt:saveProject="RobotController" rtc:updateDate="2017-06-21T10:52:15.052+09:00" rtc:creationDate="2017-06-09T17:06:44+09:00" rtc:abstract="講習会用Raspberry Piマウス操作コンポーネント" rtc:version="1.0.0" rtc:vendor="AIST" rtc:maxInstances="1" rtc:executionType="PeriodicExecutionContext" rtc:executionRate="1000.0" rtc:description="Robot Controller Component" rtc:category="Controller" rtc:componentKind="DataFlowComponent" rtc:activityType="PERIODIC" rtc:componentType="STATIC" rtc:name="RobotController">
         <rtcDoc:Doc rtcDoc:reference="" rtcDoc:license="" rtcDoc:creator="宮本　信彦　n-miyamoto@aist.go.jp&lt;br/&gt;産業技術総合研究所　ロボットイノベーション研究センター&lt;br/&gt;ロボットソフトウエアプラットフォーム研究チーム" rtcDoc:algorithm="" rtcDoc:inout="" rtcDoc:description="講習会用Raspberry Piマウス操作コンポーネント"/>
+        <rtcExt:VersionUpLogs></rtcExt:VersionUpLogs>
         <rtcExt:VersionUpLogs></rtcExt:VersionUpLogs>
     </rtc:BasicInfo>
     <rtc:Actions>
@@ -69,7 +70,7 @@
             <rtcDoc:Doc rtcDoc:constraint="-2.0&lt;x&lt;2.0" rtcDoc:range="" rtcDoc:unit="rad/s" rtcDoc:description="回転速度" rtcDoc:defaultValue="0.0" rtcDoc:dataname="speed_r"/>
             <rtcExt:Properties rtcExt:value="slider.0.01" rtcExt:name="__widget__"/>
         </rtc:Configuration>
-        <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="" rtc:unit="" rtc:defaultValue="30" rtc:type="double" rtc:name="stop_d">
+        <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="" rtc:unit="" rtc:defaultValue="30" rtc:type="int" rtc:name="stop_d">
             <rtcDoc:Doc rtcDoc:constraint="" rtcDoc:range="" rtcDoc:unit="" rtcDoc:description="停止状態に遷移するためのセンサの値" rtcDoc:defaultValue="30" rtcDoc:dataname="stop_d"/>
             <rtcExt:Properties rtcExt:value="text" rtcExt:name="__widget__"/>
         </rtc:Configuration>

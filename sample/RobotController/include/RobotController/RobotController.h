@@ -300,7 +300,7 @@ class RobotController
   // </rtc-template>
 
  private:
-	 double sensor_data[4];	//センサ値を一時格納する変数
+	 int sensor_data[4];	//センサ値を一時格納する変数
 
   // <rtc-template block="private_attribute">
   
